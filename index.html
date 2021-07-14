@@ -15,48 +15,54 @@
 
 <body>
   <center>
-   
-      <div class="col-xs-12 heading_div">
-        <h1>
-          Image Identification App
-        </h1>
-        <span><img style="width: 100px;" src="logo.gif" alt=""></span>
-      </div>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
+    <br>
 
-      <div class="col-sm-6 col-xs-12 main_div">
-        <br>
-        <br>
-        <label>Webcam View</label>
-        <div id="camera"></div>
-        <br>
-        <button onclick="take_snapshot()" class="btn btn-info">Capture Image</button>
-        <br>
-        <br>
-      </div>
-      <div class="col-sm-6 col-xs-12 main_div">
-        <br>
-        <br>
-        <label>Snapshot</label>
-        <div id="result"></div>
-        <br>
-        <button onclick="check()" class="btn btn-success">Identify Image</button>
-        <br>
-        <br>
-      </div>
+    <div class="col-xs-12 heading_div">
+      <h1>
+        Image Identification App
+      </h1>
+      <span><img style="width: 100px;" src="logo.gif" alt=""></span>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="col-sm-6 col-xs-12 main_div">
       <br>
       <br>
+      <label>Webcam View</label>
+      <div id="camera"></div>
       <br>
-      <div class="col-sm-6 col-xs-12 footer_div">
-        <span><img src="blub.gif" alt=""></span>
-        <span id="object_name"></span>
-      </div>
-    
+      <button onclick="take_snapshot()" class="btn btn-warning">CAPTURE IMAGE</button>
+      <br>
+      <br>
+    </div>
+    <div class="col-sm-6 col-xs-12 main_div">
+      <br>
+      <br>
+      <label>Snapshot</label>
+      <div id="result"></div>
+      <br>
+      <button onclick="check()" class="btn btn-success">IDENTIFY IMAGE</button>
+      <br>
+      <br>
+    </div>
+    <br>
+
+    <div class="col-sm-6 col-xs-12 footer_div">
+      <br>
+      <label style="font-size: 18px;">IDENTIFIED ANSWER:</label>
+
+      <h2 id="object_name">Hello World</h2>
+
+     
+    </div>
+
+
+
   </center>
 
 

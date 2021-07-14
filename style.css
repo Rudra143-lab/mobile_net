@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two:wght@700&display=swap');
 
 body{
-    background-color: white;
+    background-color: plum;
 }
 
 .heading_div{
@@ -11,24 +12,62 @@ body{
     width: 500px;
 }
 
-#result,
-#camera{
-    border: black dashed 3px;
-    height: 30%;
-    width: 50%;
+@font-face {
+    font-family: Lobster;
+    src: url("Lobster-Regular.ttf");
 }
 
-.footer_div img{
-    height: 20%;
-    width: 150px;
-    margin-right: 600px;
 
+#camera{
+    border: slateblue dashed 4px;
+    height: 40%;
+    width: 80%;
+}
+
+#result{
+    border: slateblue dashed 4px;
+    height: 33.8%;
+    width: 75%;
+}
+
+.heading_div{
+    background-color:white;
+    border: slateblue 6px solid;
+}
+
+
+
+#object_name{
+    color: orange;
+    font-size: 20px;
+    font-family: 'Lobster Two', cursive;
+   
+}
+
+.footer_div{
+    position: absolute;
+    top: 650px;
+    right: 350px;
+    background-color: saddlebrown;
+    border: wheat 8px solid;
+    border-radius: 10px;
+    color: white;
+}
+
+
+.main_div{
+    background-color: lightskyblue;
+    color: whitesmoke;
+    box-shadow: lightyellow 20px 20px  28px;
+    border: wheat 8px solid;
+    width: 40%;
+    left: 200px;
 }
 
 .btn-success,
-.btn-info{
-    width: 50%;
-    font-size: 20px;
+.btn-warning{
+    width: 35%;
+    font-size: 18px;
 }
 
 
